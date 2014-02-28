@@ -1,4 +1,3 @@
-
 begin
 {
 # Plays my playlists on wmplayer - i'll add being able to choose playlists later, atm it will play ALL pl's on the playlist folder generated when you create a pl from wmplayer
@@ -196,9 +195,8 @@ foreach($file in $Playlists){
     				stop-media;
     				break;
 			}
-		} stop-media; break;
+		} 
 	}
-
      stop-media;
 }
 }
